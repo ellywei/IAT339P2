@@ -1,0 +1,273 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  padding: 1rem;
+  font-size:1rem;
+  box-sizing: border-box;
+}
+
+.element {
+  padding-bottom: 1rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: #C1A693;
+}
+
+/*changing input and label styles*/
+label{
+  color:#4CAF50;
+  min-width:2rem; 
+}
+
+
+
+/*navigation bar styling*/
+nav a{
+  display: inline-block;
+  color: black;
+  background-color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+nav a:hover, focus{
+  color: #4CAF50;
+  text-decoration: none;
+
+}
+
+h1{
+  color: #4CAF50;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #000;
+  font-size: 1.5rem;/*font size not changing???*/
+
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: #4CAF50;
+}
+
+h4 {
+  font-style: italic;
+  color: #C1A693;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h5{
+  color: #4CAF50;
+
+}
+
+/*change label style*/
+label{
+  font-style: normal;
+  font-size:0.8rem;
+}
+
+/*change paragraph style*/
+p {
+  display: inline-block;
+  max-width: 90%;
+  font-weight: 400;/*???*/
+  font-size:0.8rem;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+img {
+  max-width:100%;
+  max-height:300px;
+  background-size: contain;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+  max-width: 80%;
+
+}
+
+section {  
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  border: 1.5px solid #4CAF50;
+  border-radius: 8px;
+  background-color: white;
+  color: #4CAF50;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: lighter;/*???*/
+  transition-property: color; 
+  transition-duration: 0.5s;
+  text-decoration: none;
+ 
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/*changing intext link styles*/
+
+#inText a{
+  display: inline-block;
+  padding: 0.5rem;
+  color:#4CAF50;
+  transition-property: color; 
+  transition-duration: 0.25s;
+  text-decoration: none;
+}
+
+#inText a:hover, #inText a:focus{
+  color: #C1A693;
+}
+
+/*changing ImageLink styles*/
+
+img:hover, img:focus{
+  opacity: 0.3;
+
+}
+
+.linkImageText {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
+
+/* 
+  Color Palette Block -------------------
+*/
+.color1 {
+  margin-top: 10px: 
+  height: 50px;
+  width: 200px;
+  background-color: #4CAF50;
+
+}
+.color2 {
+  height: 50px;
+  width: 200px;
+  background-color: #C1A693;
+}
+.color3 {
+  height: 50px;
+  width: 200px;
+  background-color: #4CAF50;
+  border-style: solid;
+  border-width: 0.3px;
+}
+.color4 {
+  height: 50px;
+  width: 200px;
+  background-color: #000;
+  color:#fff;
+
+}
+
+
+
+/*COMBINED ELEMENTS -------------------*/
+
+/*Product_listing Styles*/
+.Product_Listing{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.Product_Listing div{
+  padding:1em 2em;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column ;
+  justify-content: space-around;
+  max-width: 20em;
+}
+
+#Product_1{
+  flex:1;
+  order:1;
+}
+
+#Product_2{
+  flex:1;
+  order:2;
+}
+
+#Product_3{
+  flex:1;
+  order:3;
+}
+
+@media(max-width:40em){
+  .Product_Listing{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+}
+
+
+/*Payment form styles*/
+
+.Checkout{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Checkout form {
+  width: 30%;
+  padding: 12px 20px;
+  border: 1.5px solid #C1A693;
+  border-radius: 5px;
+}
+
+.Checkout .price{
+  font-style: italic;
+  color:#4CAF50;
+}
+

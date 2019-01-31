@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Checkout</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+         
+        <nav>
+          <a href="index.html">Style Guide</a>
+          <a href="#About">About</a>       
+          <a href="product_listing.html">Shop</a>
+          <a href="#Events">Events</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+
+
+      <section class= "Checkout">
+        <h3>Payment Form</h3>
+            <h4>Billing Info</h4>
+			<form>
+             <div>
+              <label for="cname">Name on Card</label> <br>
+              <input type="text"  name="cardname">
+             </div>
+          	
+          	<div>
+	            <label for="ccnum">Credit card number</label><br>
+	            <input type="text"  name="cardnumber">
+             </div>
+
+	        <div>
+	            <label for="expmonth">Exp Month</label><br>
+	            <input type="text"  name="expmonth">
+	        </div>
+
+	        <div>
+	           <label for="expyear">Expire Year</label><br>
+	            <input type="text" id="expyear" name="expyear">
+             </div>
+
+	        <div>
+	            <label for="cvv">CVV code</label><br>
+	            <input type="text" id="cvv" name="cvv">
+             </div>
+				<br>
+        		<a class="button-nav" href="#">Submit</a>          
+			</form>
+
+      </section>
+
+      <section class="Checkout">
+        <h3>Checkout Cart</h3>
+            <h4>Cart items
+                <i class="fa fa-shopping-cart"></i> 
+                <b>2</b> </h4>
+            <form>
+	            <nav>
+	            <a href="product_listing.html">Product 1</a> 
+	            <label class="price">$24</label>
+	            <nav>
+	            <br>
+	            <nav>
+	            <a href="product_listing.html">Process Fee</a> 
+	            <label class="price">$2</label>
+				</nav>
+	            <h4>Total <label class="price">$26</label></h4>
+            </form>
+    </section>
+  </body>
+</html>
