@@ -7,3 +7,10 @@
 	padding: 0 16px;
 
 }
+@media(max-width:40em){
+  .Product_Listing{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+}
