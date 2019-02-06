@@ -1,0 +1,3 @@
+*,*::after,*::before{    /**is selecting everything. This allows us to apply the border-box model to all elements on the page.*/
+	box-sizing: border-box;
+}
