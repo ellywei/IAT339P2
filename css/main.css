@@ -55,30 +55,32 @@ nav a:hover, focus{
 }
 
 h1{
+  font-size: 3rem;
   color: #4CAF50;
 }
 
 h2 {
   margin-top: 2rem;
   color: #000;
-  font-size: 1.5rem;/*font size not changing???*/
+  font-size: 2rem;/*font size not changing???*/
 
 }
 
 h3 {
   margin-top: 2rem;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   color: #4CAF50;
 }
 
 h4 {
   font-style: italic;
   color: #C1A693;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 h5{
+  font-size: 1.2rem;
   color: #4CAF50;
 
 }
@@ -94,7 +96,7 @@ p {
   display: inline-block;
   max-width: 90%;
   font-weight: 400;/*???*/
-  font-size:0.8rem;
+  font-size:1rem;
   padding-top:1em;
   padding-bottom:1em;
 }
@@ -122,6 +124,23 @@ section {
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
+
+
+
+/* Heading styling */
+.brand a{
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.brand a:hover, .brand a:focus {
+  text-decoration: none;
+
+}
+
+
+
 
 /* Styling for the navigation button */
 .button-nav {
@@ -210,6 +229,16 @@ img:hover, img:focus{
 
 
 /*COMBINED ELEMENTS -------------------*/
+
+/*home page styling*/
+.homepage {
+  padding: 50px 20px;
+}
+
+.homepage p {
+  max-width: 40%;
+}
+
 
 /*Product_listing Styles*/
 .Product_Listing{

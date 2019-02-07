@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>P2 care product fleet</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexbox.css">
+
+  </head>
+
+  <body>
+
+<!-- Functional links checked -->
+<!-- Feb 7th note 2 ordering headings -->
+<!-- Feb 7th    Note 1 semantic elements  we might need a  footer -->
+
+<!-- branding -->
+      <div class = "brand">
+        <a href="index.html"> <h1>Aesop</h1> </a>
+     </div>
+      <nav>                   
+          <a href="about.html">About</a>       
+          <a href="product_listing.html">Shop</a>
+          <a href="events.html">Events</a>
+          <a href="contact.html">Contact</a>
+          <a href="style_guide.html">Style Guide</a>
+      </nav>
+ 
+      <nav>                   
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product_listing.html">Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h4>CSS selector:</h4>
+        <p>#inText </p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h4 id="inText"&gt; &lt; a href="http://www.sfu.ca/~jwa187/IAT339/w1/P1-Style_Guide_Elly/index.html"&gt;This is a link&lt;/a&gt;&lt;/h4&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h4 id="inText">
+        <a href="http://www.sfu.ca/~jwa187/IAT339/P1-Style_Guide_Elly/">This is a link</a></h4>
+
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+
+        <h4>CSS selector:</h4>
+        <p>nav a</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="index.html"&gt;Style Guide&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <nav>
+          <a href="index.html">Style Guide</a>
+          <a href="about.html">About</a>       
+          <a href="product_listing.html">Shop</a>
+          <a href="events.html">Events</a>
+          <a href="contact.html">Contact</a>
+          <a href="checkout.html">Checkout Template</a>
+        </nav>
+
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a class= "button-nav" href="#"&gt;Submit&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Submit</a>
+        <a class="button-nav" href="#">Reset</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input</h3>
+        <h4>CSS selector:</h4>
+        <p>.input label</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;section class="input"&gt; &lt;label&gt;Label Name&lt;input type="text"&gt;&lt;/label&gt; &lt;/section&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <section class="input">
+            <label>
+              Label Name         
+              <input type="text">
+            </label>
+        </section>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <h4>CSS selector:</h4>
+        <p>label</p>
+        <h4>Sample code:</h4>
+        <code>&lt;label&gt; &lt;input type="radio"&gt;Label Name &lt;label&gt; </code>
+
+        <h4>Rendered element:</h4>
+        <label><input type="radio"> Label Name</label>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <h4>CSS selector:</h4>
+        <p>#imgLink</p>
+
+        <h4>Sample code:</h4>
+        <code> &lt;a checkout.html"&gt; &lt;img src="img/Shampoo.png" alt="Shampoo pic"  id="imgLink"&gt; &lt;/a&gt; </code>
+
+        <h4>Rendered element:</h4>
+
+            <a href="checkout.html"><img src="img/Shampoo.png" alt="Shampoo pic"  id="imgLink">
+            </a>
+
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+
+        <h4>CSS selector:</h4>
+        <p>h2,</p>
+        <p>h3,</p>
+        <p>h4,</p>
+        <p>h5</p>
+        <h4>Sample code:</h4>
+        <code>&lt;h2&gt; Headings h2 &lt;/h2&gt; </code>
+
+        <h4>Rendered element:</h4>
+
+        <h2>Headings h2</h2>
+        <h3>Headings h3</h3>
+        <h4>Headings h4</h4>
+        <h5>Headings h5</h5>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <h4>CSS selector:</h4>
+        <p>p</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt; This is a paragraph. Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. &lt;/p&gt; </code>
+
+        <h4>Rendered element:</h4>
+
+        <p>This is a paragraph. Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <h4>CSS selector:</h4>
+        <p>ol li</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;li&gt; Label &lt;/li&gt; </code>
+        <h4>Rendered element:</h4>
+
+        <ol type="1">
+          <li>Label</li>
+          <li>Label</li>
+          <li>Label</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // ART DIRECTION SECTION -->
+      <h2>Art Directions</h2>
+       <section class="element">
+        <h3>Art Directions</h3>
+          <p>Trying to match the branding of the products. Give a stylish but elegant look. </p>
+
+        <h3>Font</h3>
+          <h4>@cabin-font-family</h4>
+
+        <h3>Color Palette</h3>
+
+<!--           <div class="color1"></div> -->
+          <div class="color2">#C1A693</div>
+          <div class="color3">#4CAF50</div>
+          <div class="color4">#000000</div>
+          <div class="color5">#ffffff</div>
+
+    </section>
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <nav>
+          <a href="index.html">Style Guide</a>
+          <a href="about.html">About</a>       
+          <a href="product_listing.html">Shop</a>
+          <a href="events.html">Events</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </section>
+
+
+        <section id="About">
+          <h3>About</h3>
+          <p>We offer skin, hair and body care formulations created with meticulous attention to detail, and with efficacy and sensory pleasure in mind.</p>
+        </section>
+
+        <h3>Product/Service Listing</h3>
+
+<!-- combined elements of the products -->
+    <section Class = "Product_Listing">
+          <div id = "Product_1">
+            <h4>Amazing Face Cleanser</h4>
+            <a href="amazing_face_cleanser.html"><img src="img/Cleanser.png"  alt="Cleanser pic"></a>
+            <h5>Price: $43.00</h5>
+            <p> A non-drying daily cleanser enhanced with purifying Mandarin Rind to effectively cleanse the skin without disturbing its natural balance.</p>
+            <a class="button-nav" href="amazing_face_cleanser.html">Next</a>
+
+          </div>
+          
+          <div id = "Product_2">
+            <h4> Nurturing Shampoo</h4>
+            <a href="product_listing.html"><img src="img/Shampoo.png" alt="Shampoo pic"></a>
+            <h5>Price: $39.00</h5>
+            <p> A blend of nourishing and conditioning botanical extracts including Borage and Grape Seed Oils, hydrate and tame hair to leave it glossy and soft.</p>        <br>
+            <a class="button-nav" href="product_listing.html">Next</a>
+
+          </div>
+          
+          <div id = "Product_3">
+            <h4> Hwyl Eau de Parfum </h4>
+            <a href="product_listing.html"><img src="img/Parfum.png" alt="Parfum pic"></a>
+            <h5>Price: $165.00</h5>
+            <p> An intriguing fragrance with a hint of eccentricity. Reminiscent of a Hinoki forest, smoky notes descend into subtle spice and dark green, earthy accords. Eau de Parfum for men and women.</p> 
+            <a class="button-nav" href="product_listing.html">Next</a>
+          </div>
+    </section>
+
+
+    <section class="element">
+      <div class="col-50">
+        <div class="container-payment">
+            <h3 >Payment Form</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <img src="img/visapay.ico" alt="https://www.google.ca/search?q=payment+method+icons+png&tbm=isch&source=lnt&tbs=isz:i&sa=X&ved=0ahUKEwiJ-4Oh94bgAhWmhVQKHXkoDkYQpwUIIQ&biw=1536&bih=683&dpr=2.5#imgrc=_" width="50" height="50">
+              <img src="img/maspay.png" alt="https://www.google.ca/search?q=payment+method+icons+png&tbm=isch&source=lnt&tbs=isz:i&sa=X&ved=0ahUKEwiJ-4Oh94bgAhWmhVQKHXkoDkYQpwUIIQ&biw=1536&bih=683&dpr=2.5#imgrc=_" width="50" height="50">
+              <img src="img/paypalpay.png" alt="https://www.google.ca/search?q=payment+method+icons+png&tbm=isch&source=lnt&tbs=isz:i&sa=X&ved=0ahUKEwiJ-4Oh94bgAhWmhVQKHXkoDkYQpwUIIQ&biw=1536&bih=683&dpr=2.5#imgrc=_" width="50" height="50">
+
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Eddie Lexi Peng">
+            
+            <br><label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expdate">Expired Date(Month/Year)</label>
+                <input type="text" id="expdate" name="expdate" placeholder="03/2999">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="3 digits">
+              </div>
+                <label>
+                    <input type="checkbox" checked="checked" name="sameadr"> Agree Term of Use
+                </label>
+                    <input type="submit" value="Submit" class="button-nav">
+
+            </div>  <!-- close row -->
+          </div>   <!-- clsose container-payment -->
+      </div>
+
+         <h5>Thank you for ordering online with Aesop</h5>
+         <h5>Hope to <strong> See You Soon.</strong></h5>
+    </section>
+
+      <section class="Checkout">
+        <h3>Checkout Cart</h3>
+            <h4>Cart items
+                <i class="fa fa-shopping-cart"></i> 
+                <b>2</b> </h4>
+            <form>
+              <nav>
+              <a href="product_listing.html">Product 1</a> 
+              <label class="price">$24</label>
+              <nav>
+              <br>
+              <nav>
+              <a href="product_listing.html">Process Fee</a> 
+              <label class="price">$2</label>
+              </nav>
+              <h4>Total <label class="price">$26</label></h4>
+            </form>
+
+    </section>
+
+
+<!-- Citations -->
+    
+    <section id="citations">
+      <h2>Citations</h2>
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+        <li>codes learned from <a href="https://www.w3schools.com/html/html_form_input_types.asp">https://www.w3schools.com/html/html_form_input_types.asp</a></li>
+        <li>Content comes from:<a href="https://www.aesop.com/ca/en/">https://www.aesop.com/ca/en/</a>
+        <li>Font comes from:<a href="https://fonts.google.com/specimen/Cabin">https://fonts.google.com/specimen/Cabin</a>
+        </li>
+
+      
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>
