@@ -272,7 +272,7 @@ img:hover, img:focus{
 .container-payment{
   margin: 2em;
 /*  background-color: #C1A693;*/  
-  padding: 15px 20px;
+  padding: 15px 20px 15px 20px;
   border: 1.5px solid #C1A693;
   border-radius: 5px;
 }
