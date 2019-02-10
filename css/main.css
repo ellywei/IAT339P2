@@ -7,6 +7,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *, *:before, *:after {
@@ -20,6 +21,7 @@ body {
   padding: 1rem;
   font-size:1rem;
   box-sizing: border-box;
+  height: 100%;
 }
 
 .element {
@@ -52,6 +54,29 @@ nav a:hover, focus{
   color: #4CAF50;
   text-decoration: none;
 
+}
+
+/*homepage style*/
+
+.header{
+  background-image: url("img/bg1.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1{
@@ -231,14 +256,14 @@ img:hover, img:focus{
 /*COMBINED ELEMENTS -------------------*/
 
 /*home page styling*/
-.homepage {
+/*.homepage {
   padding: 50px 20px;
 }
 
 .homepage p {
   max-width: 40%;
 }
-
+*/
 
 /*Product_listing Styles*/
 .Product_Listing{
