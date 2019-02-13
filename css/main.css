@@ -39,8 +39,6 @@ label{
   display: inline-block;
 }
 
-
-
 /*navigation bar styling*/
 nav a{
   display: inline-block;
@@ -305,6 +303,49 @@ img:hover, img:focus{
 }
 
 
+/*About page Styles*/
+.about{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.about div{
+  padding:1em 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column ;
+  justify-content: center;
+  max-width: 60%;
+  text-align: center;
+}
+.about h2 p{
+  align-items: flex-start;
+  max-width: 30%;
+}
+
+/*events page Styles*/
+.events{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.events div{
+  padding:1em 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column ;
+  justify-content: center;
+  max-width: 60%;
+  text-align: center;
+}
+.event h2 h5 p{
+  align-items: flex-start;
+  max-width: 30%;
+}
 
 
 /*Payment form styles*/
