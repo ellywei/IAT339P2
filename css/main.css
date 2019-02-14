@@ -321,7 +321,7 @@ a img:hover, a img:focus{
   flex-direction: row;
   justify-content: space-around;
   align-content: flex-start;
-
+  min-width: 20rem;
 }
 
 #aboutContainer1 div{

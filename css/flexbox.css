@@ -5,8 +5,10 @@
 .col-50{
 	flex: 50%;
 	padding: 0 16px;
-
 }
+
+
+
 @media(max-width:30em){
   .Product_Listing {
     display: flex;
@@ -36,20 +38,33 @@
     flex-direction: column;
   }
 
-
   .row{
   flex-direction: column-reverse;
   }
+
   .col-20{
     margin-top: 20px;
   }
 
 
+}
+
+@media(max-width:50em){
+  
+  #aboutContainer1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #aboutContainer2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
 
 
 
-
-
 }
+
