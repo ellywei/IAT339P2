@@ -1,4 +1,4 @@
-*,*::after,*::before{    /**is selecting everything. This allows us to apply the border-box model to all elements on the page.*/
+*,*:after,*:before{    /**is selecting everything. This allows us to apply the border-box model to all elements on the page.*/
 	box-sizing: border-box;
 }
 
@@ -7,10 +7,26 @@
 	padding: 0 16px;
 
 }
-@media(max-width:40em){
-  .Product_Listing{
+@media(max-width:30em){
+  .Product_Listing {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  #aboutContainer1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #aboutContainer2{
+  	display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #aboutContainer2 p{
+    max-width: 100%;
   }
 }
