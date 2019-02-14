@@ -29,4 +29,11 @@
   #aboutContainer2 p{
     max-width: 100%;
   }
+
+  .row{
+  flex-direction: column-reverse;
+  }
+  .col-20{
+    margin-top: 20px;
+  }
 }
