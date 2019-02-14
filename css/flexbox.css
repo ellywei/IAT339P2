@@ -30,6 +30,13 @@
     max-width: 100%;
   }
 
+  .events{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+
   .row{
   flex-direction: column-reverse;
   }

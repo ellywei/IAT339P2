@@ -394,11 +394,15 @@ a img:hover, a img:focus{
   max-width: 60%;
   text-align: left;
 }
-.event h2 h5 p{
+.event h2 h5 p {
   align-items: flex-start;
   max-width: 30%;
 }
 
+.events img {
+  min-width: 80%;
+  height: 100%;
+}
 
 /*Payment form styles*/
 
