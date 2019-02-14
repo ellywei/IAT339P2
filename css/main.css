@@ -99,7 +99,7 @@ h1{
 }
 
 h2 {
-  margin-top: 2rem;
+  margin-top: 0rem;
   color: #000;
   font-size: 2rem;/*font size not changing???*/
 
@@ -173,11 +173,7 @@ section {
 
 .brand a:hover, .brand a:focus {
   text-decoration: none;
-
 }
-
-
-
 
 /* Styling for the navigation button */
 .button-nav {
@@ -192,16 +188,15 @@ section {
   transition-property: color; 
   transition-duration: 0.5s;
   text-decoration: none;
- 
 }
 
 .button-nav:hover, .button-nav:focus {
   background-color: #4CAF50;
   color: white;
 }
+
 .navigation{
     align-items: right;
-
 }
 
 /*changing intext link styles*/
@@ -257,6 +252,7 @@ a img:hover, a img:focus{
   border-style: solid;
   border-width: 0.3px;
 }
+
 .color4 {
   height: 50px;
   width: 200px;
@@ -310,24 +306,28 @@ a img:hover, a img:focus{
 /*About page Styles*/
 #aboutContainer1{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
   justify-content: space-around;
+  align-content: flex-start;
+
 }
 
 #aboutContainer1 div{
   padding:1em 2em;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row ;
   justify-content: center;
   text-align: left;
+
 }
 
 #aboutContainer1 #about1{
   padding:1em 2em;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  align-content: flex-start;
   flex-direction: column;
   justify-content: center;
   text-align: left;
@@ -363,7 +363,7 @@ a img:hover, a img:focus{
 
 #aboutContainer2 p{
   align-items: space-between;
-  max-width: 60%;
+  max-width: 40%;
 }
 
 /*events page Styles*/
