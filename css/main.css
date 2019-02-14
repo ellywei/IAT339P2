@@ -536,3 +536,7 @@ a img:hover, a img:focus{
   border: 1px solid lightgrey;
   border-radius: 3px;
 }
+
+#citations{
+  margin-top:  7em;
+}
