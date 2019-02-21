@@ -9,7 +9,7 @@
 
 
 
-@media(max-width:30em){
+@media(max-width:50rem){
   .Product_Listing {
     display: flex;
     align-items: flex-start;
@@ -49,7 +49,7 @@
 
 }
 
-@media(max-width:50em){
+@media(max-width:30rem){
   
   #aboutContainer1{
     display: flex;
