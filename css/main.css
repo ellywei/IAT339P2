@@ -186,6 +186,7 @@ p {
   font-weight: lighter;
   display: inline-block;
   max-width: 90%;
+  min-width: 
   padding-top:0.5rem;
   padding-bottom:0.5rem;
   margin:0;
@@ -423,8 +424,8 @@ a img:hover, a img:focus{
 }
 
 #aboutContainer2 #about3{
-/*  padding:1em 2em;
-*/display: flex;
+  padding:1em 2em;
+  display: flex;
   align-items: center;
   flex-direction: column ;
   justify-content: space-between;
@@ -453,14 +454,23 @@ a img:hover, a img:focus{
   max-width: 60%;
   text-align: left;
 }
-.event h2 h5 p {
+.events h2 h5 p {
+  padding: 1em 1em;
   align-items: flex-start;
-  max-width: 30%;
 }
+
+.events p{
+  padding: 2em 1em;
+  max-width: 70%;
+  min-width: 20rem;
+}
+
 
 .events img {
   min-width: 80%;
-  height: 100%;
+  max-width:100%;
+  height: auto;
+  width: auto;
 }
 
 /*Payment form styles*/

@@ -12,7 +12,7 @@
 @media(max-width:50rem){
   .Product_Listing {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
   }
 
@@ -34,7 +34,7 @@
 
   .events{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
   }
 
