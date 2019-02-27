@@ -613,3 +613,10 @@ a img:hover, a img:focus{
 #citations{
   margin-top:  7em;
 }
+
+footer{
+
+  position: absolute;
+  bottom: 0;
+
+}
