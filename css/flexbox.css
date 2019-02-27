@@ -45,7 +45,15 @@
   .col-20{
     margin-top: 20px;
   }
-
+/*navigation responsiveness*/
+  .navigation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #navOptions{
+    padding-top: 1rem;
+  }
 
 }
 
