@@ -55,6 +55,9 @@
   #navOptions{
     padding-top: 1rem;
   }
+  .col-22{
+    margin-bottom: 20px;
+  }
 
   #homepageNav #navOptions nav a{
     display: flex;
