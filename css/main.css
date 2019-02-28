@@ -485,6 +485,15 @@ table img{
   width: 25%;
   height: 25%
 }
+
+
+table{
+  align-content: center;
+}
+
+.container-check{
+  justify-content: center;
+}
 .Checkout form {
   width: 30%;
   padding: 12px 20px;
@@ -504,6 +513,10 @@ table img{
   font-size: 24px;
   width: 8%;
   height: 8%;
+}
+
+.element h5, .Checkout h3{
+  text-align: center;
 }
 /*combine with lexi's payment form*/
 
