@@ -64,6 +64,10 @@
     justify-content: flex-end;
   }
 
+  #Product_Detail h4{
+    max-width: 80%;
+  }
+
 }
 
 @media(max-width:30rem){
