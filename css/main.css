@@ -481,7 +481,10 @@ a img:hover, a img:focus{
   flex-direction: column;
   justify-content: space-around;
 }
-
+table img{
+  width: 25%;
+  height: 25%
+}
 .Checkout form {
   width: 30%;
   padding: 12px 20px;
@@ -493,7 +496,15 @@ a img:hover, a img:focus{
   font-style: italic;
   color:#4CAF50;
 }
-
+.Checkout .price-total{
+  font-size: 2.1rem;
+}
+.icon-container img{
+  padding: 5px 15px;
+  font-size: 24px;
+  width: 8%;
+  height: 8%;
+}
 /*combine with lexi's payment form*/
 
 .container-payment{
