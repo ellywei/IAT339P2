@@ -616,7 +616,7 @@ a img:hover, a img:focus{
 
 .footer-container{
   width: 100%;
-  position: absolute;
+  position:relative;
   bottom: 0;
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -629,16 +629,37 @@ a img:hover, a img:focus{
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   background-color: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
   color: #fff;
   text-align: center;
 }
+.indexfooter-container{
+  width: 100%;
+  position:absolute;
+  bottom: 0;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
 
+}
+
+.indexfooter{
+  width: 100%;
+  background-color: #222;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 0.85rem;
+}
 
 footer{
   width: 100%;
   background-color: #222;
   padding: 10px 0px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   color: #fff;
   text-align: center;
