@@ -71,7 +71,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-content: flex-start;
-  padding-right: 2rem;
+  padding-right: 1rem;
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 3rem;
@@ -106,6 +106,10 @@ nav a:hover, focus{
 nav a:active{
   color: #C1A693;
   text-decoration: none;  
+}
+
+#homepageNav #navOptions nav a{
+  color: #000000;
 }
 
 
@@ -375,6 +379,8 @@ a img:hover, a img:focus{
   flex-direction: row;
   justify-content: center;
   text-align: left;
+  margin-bottom: 3rem;
+
 }
 
 #aboutContainer1 #about1{
@@ -386,8 +392,9 @@ a img:hover, a img:focus{
   text-align: left;
 }
 
-#aboutContainer1 h2 p{
+#aboutContainer1 #about1 h2 p{
   align-items: flex-start;
+  padding-top: 2rem;
 }
 
 #aboutContainer1 p{
@@ -419,7 +426,8 @@ a img:hover, a img:focus{
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #EBEBF0;
+  text-decoration: color #ffffff;
+  background-color: #C1A693;
 }
 
 #aboutContainer2 #about3{
@@ -431,10 +439,13 @@ a img:hover, a img:focus{
   text-align: left;
 }
 
-#aboutContainer2 p{
+#about3 p{
   align-items: space-between;
   max-width: 40%;
+  color: white;
 }
+
+
 
 /*events page Styles*/
 .events{

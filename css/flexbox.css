@@ -51,8 +51,17 @@
     align-items: center;
     flex-direction: column;
   }
+
   #navOptions{
     padding-top: 1rem;
+  }
+
+  #homepageNav #navOptions nav a{
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    text-align: right;
+    justify-content: flex-end;
   }
 
 }
