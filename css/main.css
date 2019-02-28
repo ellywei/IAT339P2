@@ -614,9 +614,29 @@ a img:hover, a img:focus{
   margin-top:  7em;
 }
 
-footer{
-
+.footer-container{
+  width: 100%;
   position: absolute;
   bottom: 0;
+  display: flex;
+}
 
+.col{
+  -ms-flex: 55%; /* IE10 */
+  flex: 55%;
+    background-color: #222;
+      color: #fff;
+
+}
+
+
+footer{
+  width: 100%;
+  background-color: #222;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 0.85rem;
 }
