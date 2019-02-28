@@ -100,7 +100,6 @@ nav a{
 }
 
 nav a:hover, focus{
-
   color: #4CAF50;
   text-decoration: none;
 }
@@ -669,18 +668,28 @@ img {
   color: #fff;
   text-align: center;
 }
-.indexfooter-container{
+
+.col-25 nav a{
+  color: #fff;
+}
+
+.col-25 nav a:hover, focus{
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+
+/*#indexfooter-container{
   width: 100%;
   position:absolute;
   bottom: 0;
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox; 
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
+}*/
 
-}
-
-.indexfooter{
+#indexfooter{
   width: 100%;
   background-color: #222;
   padding: 10px 0px;
