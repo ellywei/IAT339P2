@@ -156,7 +156,7 @@ h3 {
   font-family: 'Questrial', sans-serif;
   letter-spacing: 0.45px;
   line-height: 1.4;
-  font-weight: 200;
+  font-weight: 100;
   font-size: 1.8rem;
   margin-bottom: 1rem;
   margin-top:0rem;
@@ -515,14 +515,9 @@ a img:hover, a img:focus{
   flex-direction: column;
   justify-content: space-around;
 }
-table img{
-  width: 25%;
-  height: 25%
-}
-
-
-table{
-  align-content: center;
+#cart-title{
+  text-align: center;
+  padding-bottom:2rem; 
 }
 
 .container-check{
@@ -539,27 +534,60 @@ table{
   font-style: italic;
   color:#4CAF50;
 }
-.Checkout .price-total{
+.col-50 .price-total{
   font-size: 2.1rem;
 }
+
+.container-cart{
+  margin-left: 15rem;
+  margin-right: 15rem;
+  text-align: center; 
+  padding: 2rem 3rem;
+  border: 1.5px solid #C1A693;
+  border-radius: 5px;
+}
+
+.container-cart img{
+  width: 50%;
+  height: 50%;
+}
+.cartitems form{
+  text-align: center;
+  position: relative;
+}
+#cartProduct{
+  color: #4CAF50;
+  font-size: 1.2rem;
+}
+
 .icon-container img{
   padding: 5px 15px;
   font-size: 24px;
-  width: 8%;
-  height: 8%;
+  width: 100px;
+  height: auto;
+}
+#acceptedcards{
+  color: #000;
+  font-size: 1.05rem;
 }
 
-.element h5, .Checkout h3{
+.thank h5, .Checkout h3{
   text-align: center;
 }
 /*combine with lexi's payment form*/
 
 .container-payment{
-  margin: 2em;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 2rem;
+  text-align: center;
 /*  background-color: #C1A693;*/  
   padding: 15px 20px 15px 20px;
   border: 1.5px solid #C1A693;
   border-radius: 5px;
+}
+.container-payment label{
+  font-size: 1.2rem;
 }
 
 /*set the payment form to be responsive  ----- .col-50

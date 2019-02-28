@@ -31,69 +31,43 @@
         
       </div>
 
-      <section class="Checkout">
-        <div class="col-22">
-          <div class="container-check">
-        <h3 id="cart-title">Checkout Cart</h3>
-                <table>
-          <tbody>
-            <tr>
-              <td class="product-one"> 
-                <a href="http://www.nightsbridge.co.za/bridge/book?bbid=15303">
-                  <img src="img/Cleanser.png"  alt="Cleanser pic" class="service-item-image" width="30" height="30">
-                </a>
-              </td>
-              </tr>
-              <tr>
+          <h2 id="cart-title">Checkout Cart</h2>
 
-              <td class="service-name">
-                <a href="http://www.nightsbridge.co.za/bridge/book?bbid=15303">
-                  Aesop-Amazing face cleanser
-                </a>
-                
-              </td>
-
-              <td class="service-quantity">
-                <div class="input-quantity">
-                  <input type="1" name="updates[]" value="1">
-                  
-                </div>
-              </td>
-
-              <td class="service-add">
-                  
-                 <button>Add</button>
-                  
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <div class="cartitems">
+        <div class="col-50">
+        <div class="container-cart">
             <h4>Cart items
                 <i class="fa fa-shopping-cart"></i> 
                 <b>1</b> </h4>
-            <form>
-              <nav>
+            <a href="amazing_face_cleanser.html">
+                  <img src="img/Cleanser.png"  alt="Cleanser pic" class="service-item-image" width="30" height="30">
+            </a>
+            <nav>
+            <a href="amazing_face_cleanser.html" id="cartProduct">
+                  Aesop-Amazing face cleanser </a>
+            </nav>
+            <nav>
               <a href="product_listing.html">Product 1</a> 
               <label class="price">$24</label>
-              <nav>
+            </nav>
               <br>
               <nav>
               <a href="product_listing.html">Process Fee</a> 
               <label class="price">$2</label>
               </nav>
               <h4>Total <label class="price-total">$26</label></h4>
-            </form>
-          </div> <!-- this is cart items -->
-        </div>
-          </div>
-      </section>
 
-       <section class="element">
+
+              </div>
+
+            </div>  <!-- close row -->
+          </div>   <!-- clsose container-payment -->
+      </div>
+
+      <!-- payment form -->
       <div class="col-50">
         <div class="container-payment">
             <h3 >Payment Form</h3>
-            <label for="fname">Accepted Cards</label>
+            <label  id="acceptedcards" for="fname">Accepted Cards</label>
             <div class="icon-container">
               <img src="img/visapay.ico" alt="https://www.google.ca/search?q=payment+method+icons+png&tbm=isch&source=lnt&tbs=isz:i&sa=X&ved=0ahUKEwiJ-4Oh94bgAhWmhVQKHXkoDkYQpwUIIQ&biw=1536&bih=683&dpr=2.5#imgrc=_" width="50" height="50">
               <img src="img/maspay.png" alt="https://www.google.ca/search?q=payment+method+icons+png&tbm=isch&source=lnt&tbs=isz:i&sa=X&ved=0ahUKEwiJ-4Oh94bgAhWmhVQKHXkoDkYQpwUIIQ&biw=1536&bih=683&dpr=2.5#imgrc=_" width="50" height="50">
@@ -110,23 +84,27 @@
               <div class="col-50">
                 <label for="expdate">Expired Date(Month/Year)</label>
                 <input type="text" id="expdate" name="expdate" placeholder="03/2999">
-              </div>
-              <div class="col-50">
-                <label for="cvv">CVV</label>
+              
+                <br><label for="cvv">CVV</label>
                 <input type="text" id="cvv" name="cvv" placeholder="3 digits">
-              </div>
-                <label>
+
+                <br><label>
                     <input type="checkbox" checked="checked" name="sameadr"> Agree Term of Use
                 </label>
                     <input type="submit" value="Submit" class="button-nav">
 
+
+              </div>
+
             </div>  <!-- close row -->
           </div>   <!-- clsose container-payment -->
       </div>
+      <div class="thank">
 
          <h5>Thank you for ordering online with Aesop</h5>
          <h5>Hope to <strong> See You Soon.</strong></h5>
-    </section>
+
+         </div>
 
 
             <div class="col-25">
